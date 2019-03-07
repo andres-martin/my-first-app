@@ -26,7 +26,7 @@ development:
   <<: *default
   database: my-first-app_development
   username: postgres
-  password: 
+  password: 1234567
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -62,7 +62,7 @@ test:
   <<: *default
   database: my-first-app_test
   username: postgres
-  password: 
+  password: 1234567
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
